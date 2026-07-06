@@ -2,6 +2,8 @@
 
 Copy this entire folder to the Ubuntu VM that has Buildroot 2025.02.15.
 
+name the folder `basic-bandit-compression-v1-vm-package/`
+
 Expected folder contents:
 
 ```text
@@ -21,7 +23,8 @@ Run on the VM:
 ```sh
 cd basic-bandit-compression-v1-vm-package
 chmod +x build-basic-bandit-compression-on-ubuntu.sh
-BUILDROOT_DIR=/home/nick/buildroot-2025.02.15 ./build-basic-bandit-compression-on-ubuntu.sh
+BUILDROOT_DIR=/home/nick/buildroot-2025.02.15
+./build-basic-bandit-compression-on-ubuntu.sh
 ```
 
 Outputs are written by default to:
